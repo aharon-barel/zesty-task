@@ -79,7 +79,7 @@ object Ec2Service : KLogging() {
 
   fun readInstancesFromGeneratedFile(region: Region): JsonArray {
     val path = "$TARGET_STORE_PREFIX/$region.json"
-    return JsonArray(readFileContent(path)).apply { logger.debug { this.encodePrettily() } }
+    return JsonArray(readFileContent(path)).also { logger.debug { it.encodePrettily() } }
   }
 
   private fun buildEc2ClientByRegion(region: Region): Ec2Client = Ec2Client.builder()
