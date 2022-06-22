@@ -1,0 +1,7 @@
+{
+  "aws": {
+    "accessKey": "accessKey",
+    "secretKey": "secretKey",
+    "endpoint": "http://localhost:4000"
+  }
+}

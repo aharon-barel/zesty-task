@@ -1,0 +1,76 @@
+# STS/Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.factorypath
+.buildpath
+.prefs
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+
+# NetBeans
+nbproject/private/
+**/build
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VSCode
+.vscode/
+
+# Vert.x
+.vertx/
+
+# Compiled Output
+target/
+tmp/
+out-tsc/
+bin/*
+!bin/www.js
+
+# NPM
+/node_modules
+
+# misc
+typings/
+*.log
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Generated/OL specific
+*.css.map
+**/plugin/lib/
+**/fragments/**/lib/
+openlegacy-core-parent/openlegacy-impl/trail/**
+*.zip
+libs/
+openlegacy-mmc-parent/mmc-frontend/package-lock.json
+*.mv.db
+
+# Git Flow
+gitflow/
+openlegacy-mmc-parent/mmc-frontend/src/environments/environment.ts
+
+# Maven
+.flattened-pom.xml
+dependency-reduced-pom.xml
+
+# Python
+venv/
+
+# Gradle
+.gradle
+**/out/
